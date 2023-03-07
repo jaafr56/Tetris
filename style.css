@@ -1,0 +1,106 @@
+.container {
+  display: flex;
+  zoom: 150%;
+  margin-left: 350px;
+  
+
+}
+
+
+.grid {
+  width: 200px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 0px 0px 20px lightskyblue;
+  border-radius: 20px;
+  background-image: url(lool.jfif);
+  border: 3px solid fuchsia
+  
+  
+}
+
+.grid div {
+  box-shadow: 0px 0px 15px ;
+  height: 20px;
+  width: 20px;
+  border-radius: 5px;
+ 
+
+}
+
+.tetromino {
+  background-color: purple;
+}
+
+#background {
+  background: #ff00c4;
+  height:97vh ;
+  background-position: center;
+  background-image: url(pexels-pixabay-220072.jpg);
+  background-size: cover;
+  
+  }
+
+  
+   h1{
+      position: absolute;
+      background: linear-gradient(90deg, #ff0000, #ffff00,#ff00f3, #0033ff, #ff00c4, #ff0000);
+      background-clip: 400%; 
+      font-family: sans-serif;
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+      animation: animate 10s linear infinite
+    }
+  
+.mini-grid {
+  margin-left: 50px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 20px;
+  background-color: blueviolet;
+  box-shadow: 0px 0px 20px lightskyblue;
+  background-image: url(lool.jfif);
+  border: 3px solid fuchsia
+
+  
+}
+
+
+#score {
+  position: absolute;
+    background: linear-gradient(90deg, #ff0000, #ffff00,#ff00f3, #0033ff, #ff00c4, #ff0000);
+    background-clip: 400%; 
+    font-family: sans-serif;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: animate 10s linear infinite
+  }
+
+
+
+
+.mini-grid div {
+  height: 20px;
+  width: 20px;
+}
+#start-button{
+  background: linear-gradient(90deg, #ff0000, #ffff00,#ff00f3, #0033ff, #ff00c4, #ff0000);
+  }
+
+  #Restart{
+    background: linear-gradient(90deg, #ff0000, #ffff00,#ff00f3, #0033ff, #ff00c4, #ff0000);
+  }
+  .block {
+    width: 30px;
+    height: 30px;
+    background: linear-gradient(to bottom, rgb(204, 0, 255), rgb(136, 0, 255), rgb(162, 0, 255)) ;
+  box-shadow: 2px 2px 20px rgb(255, 0, 0) ;
+  border-radius: 5px;
+  float: left;
+  animation: drop 1s ease-out;
+  }
+  
+  
